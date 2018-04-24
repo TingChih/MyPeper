@@ -19,3 +19,9 @@ The operation of the RS relies on user preference information, and the space of 
 In this study, we analyze and compare the random effects model, using the maximum likelihood method and the moment-based method to estimate the parameters with the matrix factorization. Through the prediction accuracy and computational efficiency to evaluate the performance of each algorithm on the MoiveLens data.
 
 According to the experiment results, the random effects model is not as good as the matrix factorization in terms of the prediction accuracy no matter what kind of parameter estimation method is used; however, the performance of the moment-based parameter estimation is consistent with the matrix factorization in terms of the prediction stability, and much better in terms of the efficiency.
+
+
+### 研究目的
+本研究聚焦在協同過濾技術下的矩陣分解法（Matrix Factorization, MF）和隨機效應模型法（Random Effects Model）的分析與比較，並以MoiveLens提供的100K和1M兩種不同量級的電影評分資料進行實證研究。
+
+試圖以100次不同的測試資料試驗，模擬各演算法在不同數據結構下，以統計上的集中趨勢量評估整體預測準確度的表現、統計上的離散趨勢量評估整體預測穩定度的表現、平均運算時間評估運算效率，且探討兩個不同量級的數據集是如何影響結果。
